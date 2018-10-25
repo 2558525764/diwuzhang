@@ -1,0 +1,22 @@
+css
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+font-family: "MicroroSoft YaHei",sans-serif;
+color: #333333;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
