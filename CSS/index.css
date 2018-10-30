@@ -5,13 +5,14 @@
     height: 40px;
     width: 100%;
     z-index: 1000;
+    background: #000000;
 }
 .hm_header>.hm_header_box{
     width: 100%;
     max-width: 640px;
     min-width: 300px;
     margin: 0 auto ;
-    background: rgba(201,21,35,0);
+
     height: 40px;
     position: relative;
 }
@@ -24,8 +25,8 @@
     left: 10px;
 }
 .hm_header>.hm_header_box>.login{
-    width: 60px;
-    height: 36px;
+    width: 50px;
+    height: 40px;
     line-height: 40px;
     text-align: center;
     color: #ffffff;
@@ -35,7 +36,7 @@
     font-size: 15px;
 }
 .hm_header>.hm_header_box>form{
-    width: 100%;
+    width: 80%;
     padding-left: 75px;
     padding-right: 50px;
     height: 40px;
@@ -56,4 +57,14 @@
     background-position: -60px -109px;
     top: 10px;
     left: 85px;
+}
+.hm_banner{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.hm_banner>ul:first-child{
+    width: 1000%;
+    -webkit-transform: translateX(-10%);
+    transform: translateX(-10%);
 }
