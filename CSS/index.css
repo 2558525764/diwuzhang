@@ -142,3 +142,18 @@ color: #666666;
 font-size: 20px;
 padding: 6px 0;
 }
+/* 商品主盒子 */
+.hm_product{
+padding: 0 5px;
+}
+.hm_product>.product_box{
+    width: 100%;
+    background: #ffffff;
+    margin-top: 10px;
+    box-shadow:0 0 1px  #e0e0e0;
+}
+.hm_product>.product_box>.product_box_tit{
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #e0e0e0;
+}
